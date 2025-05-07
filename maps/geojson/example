@@ -1,0 +1,27 @@
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+<div id='map' style='width: 100%; height: 600px;'></div>
+<script>
+  mapboxgl.accessToken = 'YOUR_TOKEN_HERE';
+  const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v11',
+    center: [40, 48],
+    zoom: 4
+  });
+  map.on('load', () => {
+    map.addSource('incoming', {
+      type: 'geojson',
+      data: 'https://raw.githubusercontent.com/businessdynamics/raven/main/maps/geojson/incoming_supplies.geojson'
+    });
+    map.addLayer({
+      id: 'incoming-lines',
+      type: 'line',
+      source: 'incoming',
+      paint: {
+        'line-width': ['get', 'flow_intensity'],
+        'line-color': '#1460aa'
+      }
+    });
+  });
+</script>
