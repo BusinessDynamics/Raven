@@ -1,0 +1,1 @@
+Placeholder content for tactical-map-notes.md

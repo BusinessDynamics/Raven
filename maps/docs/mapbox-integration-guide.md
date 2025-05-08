@@ -1,0 +1,1 @@
+Placeholder content for mapbox-integration-guide.md
