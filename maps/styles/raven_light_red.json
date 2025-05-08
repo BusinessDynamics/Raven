@@ -1,7 +1,7 @@
 {
     "version": 8,
     "name": "Raven Light Red",
-    "sprite": "https://yourdomain.com/maps/sprites/blueprint-icons/sprite",
+    "sprite": "https://ravenintel.eu/maps/sprites/blueprint-icons/sprite",
     "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
     "sources": {
       "mapbox": {
