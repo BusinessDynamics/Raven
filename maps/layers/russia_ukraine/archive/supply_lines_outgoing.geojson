@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Russia to Tartus (Syria Supply Route)",
+          "route_type": "outgoing",
+          "destination_country": "Syria",
+          "priority": 2,
+          "mode": "maritime"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [44.6167, 41.7167],
+            [35.8576, 34.8956]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Russia to Mali (Arms/Africa Redirection)",
+          "route_type": "outgoing",
+          "destination_country": "Mali",
+          "priority": 3,
+          "mode": "air + brokered"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [37.6173, 55.7558],
+            [-7.9811, 12.6392]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Russia to Iran (Tech/Payment Route)",
+          "route_type": "outgoing",
+          "destination_country": "Iran",
+          "priority": 2,
+          "mode": "maritime",
+          "description": "Outbound shipments of cash, electronics, or missile components via the Caspian Sea to Bandar Anzali"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [47.4980, 46.3476],  // Astrakhan port, Russia
+            [49.4700, 37.4729]   // Bandar Anzali, Iran
+          ]
+        }
+      }
+    ]
+  }

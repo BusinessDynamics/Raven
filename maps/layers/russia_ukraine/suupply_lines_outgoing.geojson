@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Russia to Tartus (Syria Supply Route)",
+        "route_type": "outgoing",
+        "destination_country": "Syria",
+        "priority": 1,
+        "mode": "maritime",
+        "description": "Weapons and matériel exports via the Black Sea and Mediterranean to Russian base in Tartus"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.7666, 44.7239],  
+          [28.9784, 41.0082],  
+          [35.8576, 34.8956]   
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Russia to Mali (Africa Redirection Route)",
+        "route_type": "outgoing",
+        "destination_country": "Mali",
+        "priority": 2,
+        "mode": "air + brokered",
+        "description": "Arms or personnel export through air charter and gray networks"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [37.6173, 55.7558],  
+          [-7.9811, 12.6392]   
+        ]
+      }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+          "name": "Russia to Iran (Tech/Payment Route)",
+          "route_type": "outgoing",
+          "destination_country": "Iran",
+          "priority": 2,
+          "mode": "maritime",
+          "description": "Outbound shipments of cash, electronics, or missile components via the Caspian Sea to Bandar Anzali"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [47.4980, 46.3476],  
+            [49.4700, 37.4729]   
+          ]
+        }
+    }
+  ]
+}

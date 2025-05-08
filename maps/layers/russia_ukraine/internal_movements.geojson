@@ -1,1 +1,37 @@
-Placeholder content for internal_movements.geojson
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Khabarovsk to Donbas (Conscripts Rail Line)",
+          "route_type": "internal",
+          "description": "Mobilization route from Russia’s Far East to Ukrainian front",
+          "priority": 1
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [135.0706, 48.4808],
+            [39.3080, 48.5740]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Yelabuga to Luhansk (Drone Assembly to Front)",
+          "route_type": "internal",
+          "description": "Shahed UAV shipment to occupied territory",
+          "priority": 2
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [52.0496, 55.7558],
+            [39.3078, 48.5740]
+          ]
+        }
+      }
+    ]
+  }

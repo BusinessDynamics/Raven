@@ -1,1 +1,158 @@
-Placeholder content for chokepoints.geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Khasan Rail Border",
+        "chokepoint_type": "border_crossing",
+        "description": "Rail entry point from North Korea to Russia; primary artillery corridor.",
+        "country": "Russia",
+        "pressure_rating": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130.6400, 42.4125]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bandar Anzali Port",
+        "chokepoint_type": "supply_hub",
+        "description": "Primary Iranian drone export hub across Caspian Sea.",
+        "country": "Iran",
+        "pressure_rating": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.4642, 37.4721]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Astrakhan Port",
+        "chokepoint_type": "supply_hub",
+        "description": "Drone reception point on Russian Caspian side.",
+        "country": "Russia",
+        "pressure_rating": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.0446, 46.3497]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Yelabuga Drone Plant",
+        "chokepoint_type": "assembly_site",
+        "description": "Assembly facility for Iranian Shahed-136 UAVs.",
+        "country": "Russia",
+        "pressure_rating": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.0367, 55.7628]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Manzhouli Rail Hub",
+        "chokepoint_type": "border_crossing",
+        "description": "Chinese export entry point for dual-use tech.",
+        "country": "China",
+        "pressure_rating": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.4434, 49.5993]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Rostov-on-Don Logistics Node",
+        "chokepoint_type": "tactical_zone",
+        "description": "Major logistics and artillery transshipment center.",
+        "country": "Russia",
+        "pressure_rating": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.7015, 47.2357]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Uralvagonzavod Plant",
+        "chokepoint_type": "assembly_site",
+        "description": "Russia’s main tank refurbishment facility.",
+        "country": "Russia",
+        "pressure_rating": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.0534, 58.0553]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Port of Tartus",
+        "chokepoint_type": "export_node",
+        "description": "Primary naval base for Syrian arms exports and returns.",
+        "country": "Syria",
+        "pressure_rating": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.8822, 34.8896]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bangui Export Route",
+        "chokepoint_type": "export_node",
+        "description": "Suspected route for Wagner-linked returns from CAR.",
+        "country": "Central African Republic",
+        "pressure_rating": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.5790, 4.3947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Caspian Maritime Corridor",
+        "chokepoint_type": "maritime_corridor",
+        "description": "General corridor from Iran to Astrakhan via Caspian Sea.",
+        "pressure_rating": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.2, 41.6]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Taganrog ISR Hub",
+        "chokepoint_type": "tactical_zone",
+        "description": "Command & control relay point for southern ISR ops.",
+        "country": "Russia",
+        "pressure_rating": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.8969, 47.2362]
+      }
+    }
+  ]
+}

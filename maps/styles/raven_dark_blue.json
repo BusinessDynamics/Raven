@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "Raven Light Blue",
+    "name": "Raven Dark Blue",
     "sprite": "https://yourdomain.com/maps/sprites/blueprint-icons/sprite",
     "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
     "sources": {
@@ -34,7 +34,7 @@
         "id": "background",
         "type": "background",
         "paint": {
-          "background-color": "#ffffff"
+          "background-color": "#0b0f19"
         }
       },
       {
@@ -42,7 +42,7 @@
         "type": "line",
         "source": "supply_lines_in",
         "paint": {
-          "line-color": "#0077b6",
+          "line-color": "#33ccff",
           "line-width": 2.5
         }
       },
@@ -51,7 +51,7 @@
         "type": "line",
         "source": "supply_lines_out",
         "paint": {
-          "line-color": "#0096c7",
+          "line-color": "#1f9fff",
           "line-width": 2
         }
       },
@@ -60,7 +60,7 @@
         "type": "line",
         "source": "internal_movements",
         "paint": {
-          "line-color": "#00b4d8",
+          "line-color": "#60d8ff",
           "line-dasharray": [1.5, 1],
           "line-width": 1.5
         }
@@ -70,7 +70,7 @@
         "type": "fill",
         "source": "battlezones",
         "paint": {
-          "fill-color": "#0077b6",
+          "fill-color": "#1c7fbf",
           "fill-opacity": 0.2
         }
       },
@@ -88,9 +88,8 @@
           "text-size": 10
         },
         "paint": {
-          "text-color": "#0077b6"
+          "text-color": "#33ccff"
         }
       }
     ]
   }
-

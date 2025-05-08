@@ -1,1 +1,95 @@
-Placeholder content for raven_light_red.json
+{
+    "version": 8,
+    "name": "Raven Light Red",
+    "sprite": "https://yourdomain.com/maps/sprites/blueprint-icons/sprite",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "sources": {
+      "mapbox": {
+        "type": "vector",
+        "url": "mapbox://mapbox.mapbox-streets-v8"
+      },
+      "battlezones": {
+        "type": "geojson",
+        "data": "./layers/russia_ukraine/battlezones.geojson"
+      },
+      "supply_lines_in": {
+        "type": "geojson",
+        "data": "./layers/russia_ukraine/supply_lines_incoming.geojson"
+      },
+      "supply_lines_out": {
+        "type": "geojson",
+        "data": "./layers/russia_ukraine/supply_lines_outgoing.geojson"
+      },
+      "internal_movements": {
+        "type": "geojson",
+        "data": "./layers/russia_ukraine/internal_movements.geojson"
+      },
+      "chokepoints": {
+        "type": "geojson",
+        "data": "./layers/russia_ukraine/chokepoints.geojson"
+      }
+    },
+    "layers": [
+      {
+        "id": "background",
+        "type": "background",
+        "paint": {
+          "background-color": "#ffffff"
+        }
+      },
+      {
+        "id": "supply-in",
+        "type": "line",
+        "source": "supply_lines_in",
+        "paint": {
+          "line-color": "#BD0104",
+          "line-width": 2.5
+        }
+      },
+      {
+        "id": "supply-out",
+        "type": "line",
+        "source": "supply_lines_out",
+        "paint": {
+          "line-color": "#FF6666",
+          "line-width": 2
+        }
+      },
+      {
+        "id": "internal-moves",
+        "type": "line",
+        "source": "internal_movements",
+        "paint": {
+          "line-color": "#BD0104",
+          "line-dasharray": [1.5, 1],
+          "line-width": 1.5
+        }
+      },
+      {
+        "id": "battlezones",
+        "type": "fill",
+        "source": "battlezones",
+        "paint": {
+          "fill-color": "#BD0104",
+          "fill-opacity": 0.2
+        }
+      },
+      {
+        "id": "chokepoints",
+        "type": "symbol",
+        "source": "chokepoints",
+        "layout": {
+          "icon-image": ["get", "icon"],
+          "icon-size": 0.8,
+          "icon-allow-overlap": true,
+          "text-field": ["get", "name"],
+          "text-font": ["Electrolize Regular"],
+          "text-offset": [0, 1.2],
+          "text-size": 10
+        },
+        "paint": {
+          "text-color": "#BD0104"
+        }
+      }
+    ]
+  }

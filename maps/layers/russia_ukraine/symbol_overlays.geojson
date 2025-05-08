@@ -1,0 +1,75 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Luhansk ISR Node",
+          "type": "isr_node",
+          "faction": "Russia",
+          "icon": "drone",
+          "description": "Russian-controlled ISR node; degradation noted due to UAV losses and targeting failures."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [39.3078, 48.5740]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Taganrog Command Hub",
+          "type": "command_center",
+          "faction": "Russia",
+          "icon": "satellite",
+          "description": "Signal processing and UAV launch facility; vulnerable to ISR disruption."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [38.8969, 47.2362]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Khasan Rail Transfer",
+          "type": "logistics_node",
+          "faction": "Russia–North Korea",
+          "icon": "train",
+          "description": "Rail hub for DPRK artillery shells; critical for Russia’s shell inventory."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [130.6342, 42.4286]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Yelabuga Drone Plant",
+          "type": "production_site",
+          "faction": "Russia–Iran",
+          "icon": "uav",
+          "description": "Assembly point for Iranian Shahed drones delivered via Caspian Sea."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [52.0465, 55.7701]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Avdiivka Penal Assault Zone",
+          "type": "penal_deployment",
+          "faction": "Russia",
+          "icon": "skull",
+          "description": "Confirmed use of penal battalions in exposed positions; high attrition observed."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [37.7600, 48.1000]
+        }
+      }
+    ]
+  }

@@ -1,1 +1,59 @@
-Placeholder content for supply_lines_incoming.geojson
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "North Korea to Khasan (Shell Corridor)",
+          "route_type": "incoming",
+          "source_country": "North Korea",
+          "destination": "Russia",
+          "priority": 1,
+          "mode": "rail"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [129.6612, 42.4112],
+            [130.6360, 42.0628]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Iran to Astrakhan (UAV Maritime Corridor)",
+          "route_type": "incoming",
+          "source_country": "Iran",
+          "destination": "Russia",
+          "priority": 1,
+          "mode": "maritime"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [49.4700, 37.4736],
+            [47.9784, 46.3497]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "China to Russia via Manzhouli",
+          "route_type": "incoming",
+          "source_country": "China",
+          "destination": "Russia",
+          "priority": 2,
+          "mode": "rail"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [117.4319, 49.5894],
+            [129.7500, 49.5000]
+          ]
+        }
+      }
+    ]
+  }

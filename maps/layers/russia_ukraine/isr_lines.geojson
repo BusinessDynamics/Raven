@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "isr_link",
+          "description": "Tactical ISR data flow",
+          "importance": "primary",
+          "style": "dashed"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [39.3078, 48.5740],  
+            [38.8969, 47.2362]   
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "type": "isr_link",
+          "description": "Strategic command relay",
+          "importance": "secondary",
+          "style": "dotted"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [38.8969, 47.2362],  
+            [52.0465, 55.7701]   
+          ]
+        }
+      }
+    ]
+  }

@@ -1,1 +1,81 @@
-Placeholder content for battlezones.geojson
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Avdiivka Axis",
+          "status": "high_intensity",
+          "faction": "Russia",
+          "description": "Ongoing Russian assaults with penal units; estimated 50–60% casualty rates reported in Q2 2025."
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [37.7406, 48.1246],
+            [37.8000, 48.1200],
+            [37.8000, 48.0900],
+            [37.7406, 48.0900],
+            [37.7406, 48.1246]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Chasiv Yar Sector",
+          "status": "escalating",
+          "faction": "Russia",
+          "description": "Russian forces captured key positions west of Bakhmut; Ukrainian defenses under pressure."
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [37.5660, 48.6020],
+            [37.6000, 48.6020],
+            [37.6000, 48.5800],
+            [37.5660, 48.5800],
+            [37.5660, 48.6020]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Robotyne–Verbove Line",
+          "status": "attritional",
+          "faction": "Ukraine",
+          "description": "Heavy fighting with marginal territorial changes; Russian forces attempting to regain initiative."
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [35.8360, 47.4710],
+            [35.8660, 47.4710],
+            [35.8660, 47.4510],
+            [35.8360, 47.4510],
+            [35.8360, 47.4710]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Crimean Naval Theater",
+          "status": "strike_zone",
+          "faction": "Ukraine",
+          "description": "Ukrainian naval drone strikes near Sevastopol signal shift in Black Sea asymmetrical tactics."
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [33.4950, 44.6000],
+            [33.5500, 44.6000],
+            [33.5500, 44.5500],
+            [33.4950, 44.5500],
+            [33.4950, 44.6000]
+          ]]
+        }
+      }
+    ]
+  }
